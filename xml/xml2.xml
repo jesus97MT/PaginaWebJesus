@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl2.xsl"?>
+<imagenes>
+<foto id="../imagenes/galeria/ba1.jpg" nombre="Daeneris"></foto>
+<foto id="../imagenes/galeria/ba2.jpg" nombre="Julia"></foto>
+<foto id="../imagenes/galeria/ba3.jpg" nombre="Cura Ned"></foto>
+</imagenes>

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "AmaticSC-Regular";
+    src: url(../fonts/AmaticSC-Regular.ttf) format("truetype");
+}
+
+
+div{
+	border-radius: 15px ;
+margin: 0;
+	text-align: center;
+	border-style: none;
+	background-color: #e5ffff;
+
+}
+
+h1{
+	font-size: 37px;
+	font-family: "AmaticSC-Regular";
+	color: black;
+	text-align: center;
+
+}
+h3{
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: "AmaticSC-Regular";
+	color: black;
+	text-align: center;
+	margin: auto;
+
+}
+img{
+	margin: auto;
+	width: 650px;
+	height: 450px;
+}
+
+

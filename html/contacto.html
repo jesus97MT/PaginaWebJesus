@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="../css/estilocontacto.css"
+      rel="stylesheet" type="text/css">
+	<title>Página de Jesús</title>
+</head>
+<body>
+	
+	<header>
+<a href="../index.html"><img class="novios" src="../imagenes/novios.png"></a>	<div class="redes">
+		<a href="#"><img class="redestam" src="../imagenes/redes/facebook.png"></a>
+		<a href="#"><img class="redestam" src="../imagenes/redes/twitter.png"></a>
+		<a href="#"><img class="redestam" src="../imagenes/redes/google+.png"></a>
+		<a href="#"><img class="redestam" src="../imagenes/redes/youtube.png"></a>
+		</div>
+		<img class="copas" src="../imagenes/copas.png">
+		<a href="../index.html" style="text-decoration: none;"><h1 class="title">Eventos Martínez</h1></a>
+
+	</header>
+
+	<nav>
+	
+		<div class="topnav" id="myTopnav">
+  <a href="../index.html"  class="nav1"> Inicio </a>
+  <a href="bodas.html" class="nav1"> Bodas </a>
+  <a href="bauycom.html" class="nav1"> B & C </a>
+  <a href="galeria.html" class="nav1"> Galeria</a>
+  <a href="contacto.html" class="nav1"> Contacto</a>
+</div>
+	</nav>
+
+	<section>
+	<div class="margin">
+		<div class="responsable">
+			<h1>Elige responsable según el evento:</h1>
+
+
+
+			<div class="resp">
+				<p><b>Responsable bodas</b></p>
+				<img onclick="eventos(id)" class="imgresp" src="../imagenes/contacto/resp1.jpg" id="bodas">
+				<p><b>Manuela Carmena</b></p>
+			</div>
+			<div class="resp">
+			<p><b>Responsable bautizos	</b></p>
+				<img onclick="eventos(id)" class="imgresp" src="../imagenes/contacto/resp2.jpg" id="bautizos">
+				<p><b>David bowie</b></p>
+			</div>
+			<div class="resp">
+			<p><b>Responsable comuniones</b></p>
+				<img onclick="eventos(id)" class="imgresp" src="../imagenes/contacto/resp3.jpg" id="comunión">
+				<p><b>Bob dylan</b></p>
+			</div>
+
+
+		</div>
+
+		<div class="formulario">
+			<h1>Rellena el siguiente formulario:</h1>
+			<div class="izquierda">
+			<form>
+				<p class="topform"><b>Datos del Evento:</b></p><br>
+
+				<span><p id="evento">Tipo de Evento:</p></span>
+				<br>
+				<span>Fecha prevista:</span> <input type="date" name="">
+				<br>
+				<span>Comunidad Autónoma:</span> <select>
+				<option>Comunidad de Madrid</option>
+				<option>Castilla la mancha</option>
+				<option>Castilla y león</option>
+				<option>Cataluña</option>
+				<option>Aragon</option>
+				<option>Andalucía</option>
+				<option>País Vasco</option>
+				</select>
+				<br>
+				<span>Aforo apróximado:</span> <input type="number" name="">
+				<br>
+				<span>Contratar cámara:</span> <span>si</span><input type="radio" name="gender"> <span>no</span><input type="radio" name="gender">
+
+
+
+			
+				
+
+
+			</div>
+
+			<div class="derecha">
+			
+				<p class="topform"><b>Datos del Cliente:</b></p><br>
+				<span>Nombre y Apellidos:</span> <input type="text" name=""><br>
+				<span>Correo electrónico:</span><input type="Email" name=""><br>
+				<span>TELÉFONO:</span> <input type="text" name=""><br>
+				<span>Descripción:</span><textarea rows="3" cols="30"></textarea><br>
+
+
+				
+
+
+
+			
+			</div>
+
+
+
+			
+
+
+		</div>
+
+		<div class="botones">
+			Borrar datos del formulario -> <input type="reset" name=""><br>
+			Enviar formulario -> <input type="submit" name="">
+
+
+		</div>
+		
+		</form>
+
+		
+
+				</div>
+				</section>
+
+<footer>
+		<div class="footer1">
+			<h2 class="letrasfoot">Eventos Martínez</h2>
+		</div>
+		<div class="footer2">
+						<ul><li>Diseñado por: <b>Jesús Martínez Torrecilla</b></li>
+							<li>Para: <b>Lenguaje de marcas 1ºDAW</b></li>
+							<li>Centro: <b>Ies María de Zayas</b></li>
+						</ul>
+						<ul>
+							<li>Email: <b>eventosmartinez@gmail.com</b></li>
+							<li>Teléfono: <b>666-666-666</b></li>
+							<li>Dirección: <b>Avenida Manuel Azaña</b></li>
+
+
+						</ul>
+
+				</div>
+
+	</footer>
+	<script type="text/javascript">
+
+	function eventos(id){
+		document.getElementById("evento").innerHTML ="Tipo de Evento:"+id;
+	}
+	</script>
+
+</body>
+</html>

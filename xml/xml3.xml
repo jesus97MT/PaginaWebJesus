@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl3.xsl"?>
+<imagenes>
+<foto id="../imagenes/galeria/c1.jpg" nombre="Rulfo"></foto>
+<foto id="../imagenes/galeria/c2.jpg" nombre="Drath"></foto>
+<foto id="../imagenes/galeria/c3.jpg" nombre="Lara"></foto>
+</imagenes>

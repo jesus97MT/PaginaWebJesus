@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/estiloindex.css"
+      rel="stylesheet" type="text/css">
+	<title>Página de Jesús</title>
+</head>
+<body>
+	
+	<header>
+<a href="index.html"><img class="novios" src="imagenes/novios.png"></a>
+	<div class="redes">
+		<a href="#"><img class="redestam" src="imagenes/redes/facebook.png"></a>
+		<a href="#"><img class="redestam" src="imagenes/redes/twitter.png"></a>
+		<a href="#"><img class="redestam" src="imagenes/redes/google+.png"></a>
+		<a href="#"><img class="redestam" src="imagenes/redes/youtube.png"></a>
+		</div>
+		<img class="copas" src="imagenes/copas.png">
+		<a href="index.html" style="text-decoration: none;"><h1 class="title">Eventos Martínez</h1></a>
+
+	</header>
+
+	<nav>
+	
+		<div class="topnav" id="myTopnav">
+  <a href="index.html"  class="nav1"> Inicio </a>
+  <a href="html/bodas.html" class="nav1"> Bodas </a>
+  <a href="html/bauycom.html" class="nav1"> B & C </a>
+  <a href="html/galeria.html"> Galeria</a>
+  <a href="html/contacto.html"> Contacto</a>
+</div>
+	</nav>
+
+	<section>
+	<div class="margin">
+<div class="cuadro">
+	<h1 class="title1">¿Quíenes somos?</h1>
+	<p>Somos una empresa que nos encargamos de la gestión y organización de Bodas, Bautizos y Comuniones, llevamos bastantes años en el sector y contamos con una experiencia de +500 bodas +800 bautizos y +700 comuniones. Tenemos a nuestra disposición palacetes y fincas a lo largo del territorio español incluyendo las islas canarias. Con +1000 empleados entre los que se incluyen camareros/as, chofers, asistentes, fotógrafos/as entre otros.</p>
+</div>
+<div class="polaroid">
+		<img src="imagenes/novios/fotonovios.png" class="fotonovios">
+		<img src="imagenes/novios/fotonovios2.png" class="fotonovios">
+		<img src="imagenes/novios/fotonovios3.jpg" class="fotonovios">
+		<img src="imagenes/novios/fotonovios4.jpeg" class="fotonovios">
+		<img src="imagenes/novios/fotonovios5.jpg" class="fotonovios">
+		<div class="container">
+			<span> <b>Bodas 2017</b></span>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+<div class="cuadro2">
+	<h1 class="title2">¿Qué te ofrecemos?</h1>
+	<p>Te ofrecemos un servicio de calidad insuperable con un precio para todos los bolsillos. Además de inmortalizar el momento con nuestros increibles fotografos/as. Te damos la posibilidad de contratar a nuestra orquesta compuesta de +20 músicos. Ofrecemos también la posibilidad de instalar carpas y casetas.Visita nuestra galería de fotos para inspirarte o si no contacta con nosotros.</p>
+</div>
+<div class="polaroid2">
+		<img src="imagenes/bautizosycomuniones/bau1.jpg" class="fotonovios2">
+		<img src="imagenes/bautizosycomuniones/bau2.jpg" class="fotonovios2">
+		<img src="imagenes/bautizosycomuniones/bau3.jpg" class="fotonovios2">
+		<img src="imagenes/bautizosycomuniones/comu1.jpg" class="fotonovios2">
+		<img src="imagenes/bautizosycomuniones/comu2.jpg" class="fotonovios2">
+		<img src="imagenes/bautizosycomuniones/comu3.jpg" class="fotonovios2">
+		<div class="container">
+			<span><b>Bautizos y Comuniones 2017</b></span>
+		</div>
+	</div>
+<h1 class="endletras">¡¡GRACIAS POR VISITARNOS!!</h1>
+
+		</div>
+	</section>
+	<footer>
+		<div class="footer1">
+			<h2 class="letrasfoot">Eventos Martínez</h2>
+		</div>
+		<div class="footer2">
+						<ul><li>Diseñado por: <b>Jesús Martínez Torrecilla</b></li>
+							<li>Para: <b>Lenguaje de marcas 1ºDAW</b></li>
+							<li>Centro: <b>Ies María de Zayas</b></li>
+						</ul>
+						<ul>
+							<li>Email: <b>eventosmartinez@gmail.com</b></li>
+							<li>Teléfono: <b>666-666-666</b></li>
+							<li>Dirección: <b>Avenida Manuel Azaña</b></li>
+
+
+						</ul>
+
+				</div>
+
+	</footer>
+	<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("fotonovios");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000);    
+}
+</script>
+	<script>
+var myIndex = 0;
+carousel1();
+
+function carousel1() {
+    var i;
+    var x = document.getElementsByClassName("fotonovios2");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel1, 8000);    
+}
+</script>
+
+</body>
+</html>

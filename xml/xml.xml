@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xsl.xsl"?>
+<imagenes>
+<foto id="../imagenes/galeria/b1.jpg" nombre="Andrea y Goloso"></foto>
+<foto id="../imagenes/galeria/b2.jpg" nombre="Sara y Fer"></foto>
+<foto id="../imagenes/galeria/b3.jpeg" nombre="Juan e Ibrahim"></foto>
+<foto id="../imagenes/galeria/b4.jpg" nombre="Blanca y Clara"></foto>
+<foto id="../imagenes/galeria/b5.jpg" nombre="Violeta y rosa"></foto>
+<foto id="../imagenes/galeria/b6.png" nombre="laisy y apu"></foto>
+</imagenes>
